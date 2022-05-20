@@ -1,0 +1,215 @@
+/* Author: Sebastian Aguirre Duque
+    E-mail: sadw621@gmail.com */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    background-color: rgba(240, 255, 255, 0.774);
+}
+  
+#fondo{ 
+    background: url(../images/ballena1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+  
+.contenedorTitu{
+    background: rgba(251, 251, 251, 0.3);
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    position: relative;
+    top:52px;
+    width: 100%;
+}
+  
+#titulo{
+    color: white;
+    display: flex;
+    width: 100%;
+}
+  
+#titulo h1{
+    float: left;
+    padding-left: 20px;
+}
+  
+.menu2{
+    float: right;
+    margin-top: 10px;
+}
+  
+.menu2 a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    right: 10px;
+}
+  
+.menu2 a:hover{
+    background: rgb(14, 202, 213,0.5);
+}
+  
+.ContenedorNav{
+    width: 100%;
+    margin:auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+  
+  
+#Cabeza{
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    height: auto;
+    background: rgba(149, 164, 165, 0.5);
+    padding: 5px;
+}
+  
+#Cabeza h1{
+    float: left;
+}
+  
+.menu{
+    float: right;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: block;
+}
+  
+.menu li{
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+  
+.menu li ul{
+    display: none;
+    position: absolute;
+}
+  
+.menu li:hover ul{
+    display: block;
+}
+  
+.menu li ul li{
+    position: relative;
+}
+  
+.menu li ul li ul{
+    height: -145;
+    top:0px;
+    padding: 10px;
+}
+  
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+  
+}
+  
+.menu a:hover{
+    background: rgb(251, 251, 251,0.5);
+}
+  
+.ContenedorNav{
+    width: 100%;
+    margin:auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px;
+}
+  
+#Principal{
+    color: rgba(255, 255, 255, 0.856);
+    position: relative;
+    top:55%;
+    padding: 5px 10px;
+}
+  
+.ContenedorPrin{
+    font-weight: 600;
+    font-size: 20px;
+}
+  
+.ContenedorPrin a{
+    color: rgba(255, 255, 255, 0.856);
+    text-decoration: none;
+    width: 10%;
+    padding: 5px 10px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+.main-section {
+    text-justify: justify;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: start;
+}
+
+.flex-content {
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+}
+
+.ballenas-images {
+    float: right;
+    margin-left: 2%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px;
+}
+
+.ballenas-images {
+    max-width: 100%;
+    height: auto;
+}
+
+.choco-images {
+    float: left;
+    margin-left: 2%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 550px;
+}
+
+.choco-images {
+    max-width: 100%;
+    height: auto;
+}
